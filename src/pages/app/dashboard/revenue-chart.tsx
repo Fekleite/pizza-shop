@@ -17,6 +17,8 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
+import { DateRangePicker } from '@/components/ui/date-range-picker'
+import { Label } from '@/components/ui/label'
 
 export function RevenueChart() {
   const { data: dailyRevenueInPeriod } = useQuery({
@@ -32,6 +34,11 @@ export function RevenueChart() {
             Receita período
           </CardTitle>
           <CardDescription>Receita diária no período</CardDescription>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <Label>Período</Label>
+          <DateRangePicker />
         </div>
       </CardHeader>
       <CardContent>
