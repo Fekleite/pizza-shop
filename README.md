@@ -16,6 +16,8 @@
 - Vitest
 - React Testing Library
 - Happy DOM
+- MSW
+- Playwright
 
 ## Páginas
 
