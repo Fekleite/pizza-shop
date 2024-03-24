@@ -114,7 +114,7 @@ export function StoreProfileDialog() {
 
           <div className="grid grid-cols-4 items-center gap-4">
             <Label className="text-right" htmlFor="description">
-              Nome
+              Descrição
             </Label>
             <Textarea
               className="col-span-3"
